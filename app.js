@@ -43,8 +43,8 @@ nodemailer.mail({
     secureConnection: true, // use SSL
     port: 465, // port for secure SMTP
             auth: {
-                 user: "idealmediaservices@gmail.com",
-                 pass: "linkites123"
+                 user: "emailexample@email.com",
+                 pass: "##########"
             }
         });
         var mailOptions = {
