@@ -1,0 +1,11 @@
+{
+  "name": "NodeJs-Email-send",
+  "version": "0.0.1",
+  "author" : "Amit Mishra",
+  "description": "NodeJs send email form to send email using nodejs",
+  "dependencies": {
+    "nodemailer": "~0.7.0",
+    "express": "~3.4.0",
+    "body-parser": "~1.13.1"
+  }
+}
