@@ -28,7 +28,7 @@ if(req.body.email == "" || req.body.subject == "") {
 }
 // Sending Email Without SMTP
 nodemailer.mail({
-    from: "Node Email Send ✔ <no-reply@iamrohit.in>", // sender address
+    from: "Node Email Send ✔ <amitmishra1628@gmail.com>", // sender address
     to: req.body.email, // list of receivers
     subject: req.body.subject+" ✔", // Subject line
     //text: "Hello world ✔", // plaintext body
@@ -48,7 +48,7 @@ nodemailer.mail({
             }
         });
         var mailOptions = {
-            from: "Node Email Send ✔ <no-reply@iamrohit.in>", // sender address
+            from: "Node Email Send ✔ <amitmishra1628@gmail.com>", // sender address
             to: req.body.email, // list of receivers
             subject: req.body.subject+" ✔", // Subject line
             //text: "Hello world ✔", // plaintext body
